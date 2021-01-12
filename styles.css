@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  padding-top: 40px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  padding: 1% 2%;
+}
+
+.title-details {
+  padding: 3% 0;
+}
+
+.title-font {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.buy-btn {
+  margin: 3% 1%;
+}
+
+.one-services{
+    width: auto;
+    height: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  .title-details {
+    padding: 2% 0 0;
+  }
+  .buy-btn {
+    margin: 2% 1%;
+  }
+}
