@@ -15,17 +15,21 @@ a:hover {
 }
 
 .title-details {
-  padding: 3% 0;
+  padding: 5% 0 3%;
 }
 
 .title-font {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
 .buy-btn {
   margin: 3% 1%;
+}
+
+.macbook-m1{
+    background-color: black;
 }
 
 .one-services{
@@ -35,9 +39,13 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
   .title-details {
-    padding: 2% 0 0;
+    padding: 3% 0 0;
   }
   .buy-btn {
     margin: 2% 1%;
+  }
+
+  .title-font {
+    font-size: 3.5rem;
   }
 }
