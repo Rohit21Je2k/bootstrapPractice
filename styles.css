@@ -28,16 +28,28 @@ a:hover {
   margin: 3% 1%;
 }
 
-.macbook-m1{
-    background-color: black;
+.macbook-m1 {
+  background-color: black;
 }
 
-.one-services{
-    width: auto;
-    height: 200px;
+.one-services {
+  width: auto;
+  height: 200px;
 }
+
+.pricing {
+  padding: 4% 10%;
+}
+
+footer {
+  padding: 5% 10%;
+}
+
 
 @media only screen and (min-width: 768px) {
+  .iphone12-img {
+    clip-path: polygon(0px,672px,500px,0px);
+  }
   .title-details {
     padding: 3% 0 0;
   }
